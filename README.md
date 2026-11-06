@@ -15,4 +15,4 @@ Páginas: `/`, `/about`, `/services`, `/divisions`, `/projects`, `/store`, `/con
 
 **Origem:** componentes e traduções recuperados de alterações do Lovable; páginas reconstruídas para este repositório. Leia [CODEX_HANDOFF.md](CODEX_HANDOFF.md) antes de continuar o desenvolvimento.
 
-Projeto original: https://lovable.dev/projects/dce7f34d-c034-4da4-9fd0-1f2c9b0b5c26
+
