@@ -1,0 +1,113 @@
+import type { Dict } from "./en";
+
+const ptBR: Dict = {
+  nav: {
+    home: "Início", about: "Sobre", services: "Serviços", divisions: "Divisões",
+    projects: "Projetos", store: "Loja", contact: "Contato", cta: "Fale Conosco",
+    menu: "Abrir menu", close: "Fechar menu", language: "Idioma", skip: "Pular para o conteúdo",
+    primary: "Navegação principal",
+  },
+  common: {
+    provisional: "Nome provisório", comingSoon: "Em breve", explore: "Explorar",
+    futureSlot: "Reservado para trabalhos futuros", logoSlot: "Espaço do logo",
+  },
+  footer: {
+    tagline: "Estúdio de Tecnologia & Criatividade",
+    philosophy: "O impacto dá forma às ideias.",
+    explore: "Explorar", rights: "Todos os direitos reservados.",
+  },
+  home: {
+    eyebrow: "Estúdio de Tecnologia & Criatividade",
+    title1: "Ideias em", title2: "Impacto.",
+    lead: "Criamos soluções digitais inteligentes e experiências criativas que transformam ideias em impacto real.",
+    ctaServices: "Conheça Nossos Serviços", ctaStudio: "Descubra Nosso Estúdio",
+    whatEyebrow: "O Que Fazemos", whatTitle: "Capacidades forjadas para a era digital.",
+    what: [
+      { t: "Desenvolvimento de Software & SaaS", d: "Plataformas robustas e escaláveis, construídas com clareza e visão de longo prazo." },
+      { t: "Aplicativos Mobile", d: "Apps rápidos e intuitivos, pensados para o ritmo real do dia a dia." },
+      { t: "Automação & Soluções Digitais", d: "Fluxos inteligentes e ferramentas com IA que eliminam atritos no trabalho." },
+      { t: "Experiências Digitais Criativas", d: "Experiências interativas, visuais e narrativas com verdadeira força expressiva." },
+    ],
+    philEyebrow: "Nossa Filosofia", philTitle: "O Impacto Dá Forma às Ideias.",
+    philBody: "Toda ideia nasce sem forma. É preciso pressão, precisão e intenção para moldá-la. Acreditamos que o momento do impacto — onde visão encontra execução — é onde algo real é criado.",
+    divEyebrow: "Divisões", divTitle: "Um estúdio. Várias frentes de criação.",
+    divNote: "Os nomes das divisões são provisórios e representam áreas internas de foco de um único estúdio.",
+    nextEyebrow: "Princípios", nextTitle: "Feito para o Que Vem a Seguir.",
+    next: [
+      { t: "Inovação", d: "Explorar novas ferramentas e ideias com propósito, não com ruído." },
+      { t: "Precisão", d: "Engenharia e design cuidadosos até o último detalhe." },
+      { t: "Criatividade", d: "Pensamento ousado que dá personalidade a cada produto." },
+      { t: "Escalabilidade", d: "Fundações pensadas para crescer junto com a ambição." },
+    ],
+    ctaTitle: "Tem uma ideia que vale a pena construir?", ctaButton: "Fale Conosco",
+  },
+  divisionsData: [
+    { name: "Project Systems", area: "Software & SaaS", d: "Plataformas, sistemas e produtos SaaS feitos para confiabilidade e crescimento." },
+    { name: "Project Forge", area: "Jogos & Experiências Interativas", d: "Uma frente futura para jogos e mundos interativos guiados por técnica e diversão." },
+    { name: "Project Editions", area: "Livros & Publicações", d: "Iniciativas editoriais que dão às ideias uma forma duradoura." },
+    { name: "Project Motion", area: "Vídeo & Mídia Digital", d: "Motion, vídeo e mídia digital com intenção cinematográfica." },
+  ],
+  about: {
+    eyebrow: "Sobre", title: "Um estúdio moldado pelo impacto.",
+    lead: "A Project Art Impact une tecnologia e criatividade para construir produtos digitais com substância e personalidade.",
+    whoTitle: "Quem Somos",
+    whoBody: "Somos um estúdio de tecnologia e criatividade. Projetamos e desenvolvemos software, aplicativos, automações e experiências digitais — unindo disciplina de engenharia e ambição criativa.",
+    philTitle: "Filosofia",
+    philBody: "O impacto dá forma às ideias. Tratamos cada projeto como o encontro entre visão e execução, e trabalhamos para tornar esse momento preciso.",
+    missionTitle: "Missão",
+    missionBody: "Transformar ideias em soluções digitais inteligentes e bem construídas que gerem impacto relevante.",
+    visionTitle: "Visão",
+    visionBody: "Tornar-se uma referência global entre estúdios que unem tecnologia, design e criatividade com integridade.",
+    beliefsTitle: "No Que Acreditamos",
+    beliefs: [
+      { t: "Inovação com propósito", d: "Novas ideias devem resolver problemas reais." },
+      { t: "Criatividade sem complexidade desnecessária", d: "Ousados, mas sempre claros." },
+      { t: "Precisão", d: "A qualidade mora nos detalhes." },
+      { t: "Transparência & confiança", d: "Comunicação honesta em cada etapa." },
+      { t: "Evolução contínua", d: "Seguimos aprendendo, refinando e crescendo." },
+    ],
+  },
+  services: {
+    eyebrow: "Serviços", title: "Áreas de foco.",
+    lead: "As capacidades que estamos construindo e desenvolvendo. Cada área mostra onde o estúdio concentra sua expertise.",
+    note: "Estas são áreas de foco e capacidade. A disponibilidade de serviços específicos pode variar conforme o estúdio evolui.",
+    items: [
+      { t: "Desenvolvimento de Software", d: "Software sob medida com arquitetura sólida, código limpo e fácil manutenção." },
+      { t: "Plataformas SaaS", d: "Produtos em nuvem multiusuário pensados para escala, segurança e evolução." },
+      { t: "Aplicativos Mobile", d: "Experiências fluidas para iOS e Android com foco em desempenho." },
+      { t: "Automação & Soluções com IA", d: "Fluxos e ferramentas inteligentes que reduzem trabalho repetitivo e apoiam decisões." },
+      { t: "Experiências Interativas", d: "Experiências digitais interativas e lúdicas, incluindo futuros projetos de jogos." },
+      { t: "Publicação Digital & Mídia", d: "Livros, conteúdo editorial, vídeo e mídia digital com identidade forte." },
+    ],
+  },
+  divisions: {
+    eyebrow: "Divisões", title: "Quatro frentes. Um impacto.",
+    lead: "Nossas divisões propostas organizam o foco criativo e técnico do estúdio. São áreas internas de um único estúdio, não empresas separadas.",
+    note: "Todos os nomes de divisões são provisórios.",
+    slotLabel: "Projetos futuros",
+    slotBody: "Este espaço está reservado para os próximos trabalhos desta divisão.",
+  },
+  projects: {
+    eyebrow: "Projetos", title: "Novas ideias estão tomando forma.",
+    lead: "Nosso portfólio está sendo construído. Os próximos projetos serão apresentados aqui quando estiverem prontos.",
+    slotTitle: "Projeto em desenvolvimento",
+    slotBody: "Os detalhes serão revelados no momento certo.",
+    status: "Em andamento",
+  },
+  store: {
+    eyebrow: "Loja", title: "Algo Está Tomando Forma.",
+    lead: "Nossos produtos digitais e lançamentos criativos estarão disponíveis aqui em breve.",
+    categoriesTitle: "Categorias futuras",
+    cats: ["Software", "Produtos Digitais", "Jogos", "Livros", "Recursos Criativos"],
+  },
+  contact: {
+    eyebrow: "Contato", title: "Vamos criar impacto juntos.",
+    lead: "Conte-nos sobre sua ideia. Nosso canal de contato está sendo preparado e estará disponível em breve.",
+    name: "Nome", email: "E-mail", subject: "Assunto", message: "Mensagem",
+    namePh: "Seu nome", emailPh: "voce@exemplo.com", subjectPh: "Sobre o que é?", messagePh: "Conte-nos sobre sua ideia…",
+    send: "Enviar Mensagem",
+    unavailable: "Formulário ainda indisponível — os envios estão desativados por enquanto.",
+  },
+};
+
+export default ptBR;

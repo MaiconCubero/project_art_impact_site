@@ -1,25 +1,18 @@
-# Project Art Impact — Website
+# Project Art Impact
 
-Website institucional da Project Art Impact, Technology & Creative Studio.
+Website institucional multilíngue (7 idiomas) em React, TypeScript, Tailwind e Vite, com a identidade visual **Aggressive Impact**.
 
-## Estado do projeto
+## Executar
 
-A primeira versão visual foi criada no Lovable e está disponível no projeto original: https://lovable.dev/projects/dce7f34d-c034-4da4-9fd0-1f2c9b0b5c26
+```bash
+npm install
+npm run dev
+```
 
-Este repositório está sendo preparado como base de continuidade de desenvolvimento no GitHub/Codex. Para preservar integralmente as páginas e o histórico, sincronize o projeto do Lovable com este repositório pelo recurso GitHub do editor Lovable.
+Build: `npm run build`.
 
-## Identidade visual
+Páginas: `/`, `/about`, `/services`, `/divisions`, `/projects`, `/store`, `/contact`.
 
-Estética **Aggressive Impact**, com vermelho `#E63946`, grafite `#14171C`, chumbo `#252B34`, branco gelo `#F4F5F7` e cinza aço `#8F9BAA`.
+**Origem:** componentes e traduções recuperados de alterações do Lovable; páginas reconstruídas para este repositório. Leia [CODEX_HANDOFF.md](CODEX_HANDOFF.md) antes de continuar o desenvolvimento.
 
-Filosofia: **O impacto dá forma às ideias.**
-
-## Rotas previstas
-
-`/`, `/about`, `/services`, `/divisions`, `/projects`, `/store`, `/contact`.
-
-## Idiomas previstos
-
-`en`, `pt-BR`, `es`, `fr`, `de`, `ja`, `zh-CN`.
-
-> Não publicar dados comerciais, clientes, cases ou equipes fictícias. Loja em "Coming Soon"; formulário de contato sem backend até ser implementado.
+Projeto original: https://lovable.dev/projects/dce7f34d-c034-4da4-9fd0-1f2c9b0b5c26

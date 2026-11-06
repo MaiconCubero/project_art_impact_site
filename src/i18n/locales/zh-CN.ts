@@ -1,0 +1,113 @@
+import type { Dict } from "./en";
+
+const zhCN: Dict = {
+  nav: {
+    home: "首页", about: "关于我们", services: "服务", divisions: "事业部",
+    projects: "项目", store: "商店", contact: "联系", cta: "联系我们",
+    menu: "打开菜单", close: "关闭菜单", language: "语言", skip: "跳至正文",
+    primary: "主导航",
+  },
+  common: {
+    provisional: "暂定名称", comingSoon: "即将推出", explore: "了解更多",
+    futureSlot: "为未来作品预留", logoSlot: "标志占位",
+  },
+  footer: {
+    tagline: "科技与创意工作室",
+    philosophy: "冲击，塑造想法。",
+    explore: "浏览", rights: "保留所有权利。",
+  },
+  home: {
+    eyebrow: "科技与创意工作室",
+    title1: "让想法", title2: "产生冲击。",
+    lead: "我们打造智能数字解决方案与创意体验，将想法转化为有意义的影响力。",
+    ctaServices: "探索我们的服务", ctaStudio: "了解我们的工作室",
+    whatEyebrow: "我们做什么", whatTitle: "为数字时代锻造的能力。",
+    what: [
+      { t: "软件与 SaaS 开发", d: "以清晰思路和长远眼光打造稳健、可扩展的平台。" },
+      { t: "移动应用", d: "快速、直观，契合人们日常节奏的应用。" },
+      { t: "自动化与数字解决方案", d: "消除工作阻力的智能流程与 AI 辅助工具。" },
+      { t: "创意数字体验", d: "具有真正表现力的互动、视觉与叙事体验。" },
+    ],
+    philEyebrow: "我们的理念", philTitle: "冲击，塑造想法。",
+    philBody: "每个想法起初都没有形状。需要压力、精准与意图，才能赋予它形态。我们相信，冲击的瞬间——愿景与执行相遇之处——正是真实事物诞生的地方。",
+    divEyebrow: "事业部", divTitle: "一个工作室，多条创作前线。",
+    divNote: "事业部名称均为暂定，代表同一工作室内部的重点领域。",
+    nextEyebrow: "原则", nextTitle: "为未来而建。",
+    next: [
+      { t: "创新", d: "有目的地探索新工具与新想法，而非制造噪音。" },
+      { t: "精准", d: "细致入微的工程与设计。" },
+      { t: "创造力", d: "以大胆思维赋予每个产品独特个性。" },
+      { t: "可扩展性", d: "为雄心而生、可持续成长的基础。" },
+    ],
+    ctaTitle: "有值得实现的想法吗？", ctaButton: "联系我们",
+  },
+  divisionsData: [
+    { name: "Project Systems", area: "软件与 SaaS", d: "为可靠性与增长而构建的平台、系统与 SaaS 产品。" },
+    { name: "Project Forge", area: "游戏与互动体验", d: "面向游戏与互动世界的未来领域。" },
+    { name: "Project Editions", area: "图书与出版", d: "赋予想法持久形态的编辑与出版项目。" },
+    { name: "Project Motion", area: "视频与数字媒体", d: "具有电影感的动态影像、视频与数字媒体。" },
+  ],
+  about: {
+    eyebrow: "关于我们", title: "由冲击塑造的工作室。",
+    lead: "Project Art Impact 融合科技与创意，打造兼具内涵与个性的数字产品。",
+    whoTitle: "我们是谁",
+    whoBody: "我们是一家科技与创意工作室，设计并开发软件、应用、自动化方案与数字体验，将工程纪律与创意抱负相结合。",
+    philTitle: "理念",
+    philBody: "冲击，塑造想法。我们将每个项目视为愿景与执行的碰撞，并致力于让这一刻精准无误。",
+    missionTitle: "使命",
+    missionBody: "将想法转化为智能、精心打造的数字解决方案，创造有意义的影响。",
+    visionTitle: "愿景",
+    visionBody: "成为以诚信融合科技、设计与创意的全球标杆工作室。",
+    beliefsTitle: "我们的信念",
+    beliefs: [
+      { t: "有目的的创新", d: "新想法应当解决真实问题。" },
+      { t: "不做无谓复杂的创意", d: "大胆，但始终清晰。" },
+      { t: "精准", d: "品质藏于细节。" },
+      { t: "透明与信任", d: "每一步都坦诚沟通。" },
+      { t: "持续进化", d: "不断学习、打磨与成长。" },
+    ],
+  },
+  services: {
+    eyebrow: "服务", title: "重点领域。",
+    lead: "这些是我们正在建设和发展的能力，每个领域都体现了工作室的专业重心。",
+    note: "以下为重点领域与能力方向，具体服务的提供情况可能随工作室发展而变化。",
+    items: [
+      { t: "软件开发", d: "基于稳健架构、代码清晰易维护的定制软件。" },
+      { t: "SaaS 平台", d: "面向规模、安全与持续演进的多用户云产品。" },
+      { t: "移动应用", d: "注重性能的 iOS 与 Android 流畅体验。" },
+      { t: "自动化与 AI 解决方案", d: "减少重复劳动、辅助决策的流程与智能工具。" },
+      { t: "互动体验", d: "互动有趣的数字体验，包括未来的游戏项目。" },
+      { t: "数字出版与媒体", d: "具有鲜明特色的图书、编辑内容、视频与数字媒体。" },
+    ],
+  },
+  divisions: {
+    eyebrow: "事业部", title: "四条前线，一种冲击。",
+    lead: "我们拟设的事业部用于梳理工作室的创意与技术重心。它们是同一工作室的内部领域，并非独立公司。",
+    note: "所有事业部名称均为暂定。",
+    slotLabel: "未来项目",
+    slotBody: "此处为该事业部即将推出的作品预留。",
+  },
+  projects: {
+    eyebrow: "项目", title: "新的想法正在成形。",
+    lead: "我们的作品集正在建设中。即将推出的项目准备就绪后将在此展示。",
+    slotTitle: "开发中的项目",
+    slotBody: "详情将在合适的时候公布。",
+    status: "进行中",
+  },
+  store: {
+    eyebrow: "商店", title: "有些东西正在成形。",
+    lead: "我们的数字产品与创意作品即将在这里上线。",
+    categoriesTitle: "未来品类",
+    cats: ["软件", "数字产品", "游戏", "图书", "创意素材"],
+  },
+  contact: {
+    eyebrow: "联系", title: "一起创造影响力。",
+    lead: "告诉我们你的想法。我们的联系渠道正在筹备中，即将开放。",
+    name: "姓名", email: "电子邮箱", subject: "主题", message: "留言",
+    namePh: "你的姓名", emailPh: "you@example.com", subjectPh: "关于什么？", messagePh: "说说你的想法…",
+    send: "发送消息",
+    unavailable: "表单尚未开放——目前暂不支持提交。",
+  },
+};
+
+export default zhCN;
